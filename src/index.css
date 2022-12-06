@@ -1,0 +1,18 @@
+:root {
+  --turquesa: #2fd3ae;
+  --turquesa-oscuro: #0eb991;
+  --black: #000;
+  --dark: #282828;
+  --white: #fff;
+}
+
+/*Scroll Bar */
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: var(--turquesa);
+}

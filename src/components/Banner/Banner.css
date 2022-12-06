@@ -1,0 +1,51 @@
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../../../public/img/bg-image-3.9ac19820.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  color: var(--white);
+}
+
+/* Video */
+
+.banner .pc {
+  position: relative;
+}
+
+.banner .pc > img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner .pc > .video {
+  display: inline-block;
+  top: 6.1%;
+  width: 67.8%;
+  max-width: none;
+}
+
+.banner .pc > .video > video {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.banner h1 {
+  font-size: 70px;
+  color: var(--white);
+  margin-bottom: 50px;
+}
+
+/* Boton Primario */
+
+.banner .btn-primary {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 18px 42px 16px;
+}

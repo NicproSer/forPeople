@@ -1,0 +1,19 @@
+.navbar {
+  background-color: transparent;
+  box-shadow: 0 2px 12px hsl(0deg 0% 53% / 10%);
+  transition: all 0.6s ease;
+}
+
+.navbar .logoImg {
+  max-width: 150px;
+}
+
+.navbar .nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Navbar Sticky*/
+.navbar.sticky {
+  background-color: #333;
+}
