@@ -29,6 +29,30 @@ export const NavbarB = () => {
               <Nav.Link active href="#">
                 Nosotros
               </Nav.Link>
+              <Nav.Link active href="#">
+                Empresas
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Busco Talento
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Profesionales
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Busco Empleo
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Blog
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Contacto
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Es
+              </Nav.Link>
+              <Nav.Link active href="#">
+                En
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
