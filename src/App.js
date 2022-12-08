@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Preloader from "./components/Preloader/Preloader";
 import ScrollButton from "./components/ScrollButton/ScrollButton";
 import { NavbarB } from "./components/Navbar/Navbar";
