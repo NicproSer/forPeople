@@ -1,10 +1,17 @@
 import React from "react";
+import Preloader from "../components/Preloader/Preloader";
+import ScrollButton from "../components/ScrollButton/ScrollButton";
+import { NavbarB } from "../components/Navbar/Navbar";
 import Banner from "../components/Banner/Banner";
-
-export default function Home() {
+const Home = () => {
   return (
-    <div>
+    <>
+      <Preloader />
+      <NavbarB />
       <Banner />
-    </div>
+      <ScrollButton />
+    </>
   );
-}
+};
+
+export default Home;
