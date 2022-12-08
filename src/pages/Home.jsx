@@ -1,26 +1,10 @@
 import React from "react";
-import Preloader from "../components/Preloader/Preloader";
-import { NavbarB } from "../components/Navbar/Navbar";
-import { Banner } from "../components/Banner/Banner";
-import { Reclutamiento } from "../components/Reclutamiento/Reclutamiento";
-import { Colaboradores } from "../components/Colaboradores/Colaboradores";
-import { ScrollButton } from "../components/ScrollButton/ScrollButton";
-import { Footer } from "../components/Footer/Footer";
-import { Contadores } from "../components/Contadores/Contadores";
-import { Beneficios } from "../components/Beneficios/Beneficios";
+import Banner from "../components/Banner/Banner";
 
-export const Home = () => {
+export default function Home() {
   return (
-    <>
-      <Preloader />
-      <NavbarB />
+    <div>
       <Banner />
-      <Colaboradores />
-      <Reclutamiento />
-      <Contadores />
-      <Beneficios />
-      <ScrollButton />
-      <Footer />
-    </>
+    </div>
   );
-};
+}
