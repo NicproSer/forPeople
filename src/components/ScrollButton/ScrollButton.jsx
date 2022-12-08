@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import "./ScrollButton.css";
 
-export default function ScrollButton() {
+export const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 
   const toogleVisible = () => {
@@ -31,4 +31,4 @@ export default function ScrollButton() {
       <i className="bx bx-chevron-up" onClick={scrollToTop}></i>
     </Button>
   );
-}
+};

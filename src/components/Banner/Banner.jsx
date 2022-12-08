@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-export default function Banner() {
+export const Banner = () => {
   return (
     <div className="banner">
       <Container>
@@ -30,4 +30,4 @@ export default function Banner() {
       </Container>
     </div>
   );
-}
+};

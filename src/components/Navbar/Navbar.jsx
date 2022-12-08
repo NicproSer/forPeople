@@ -13,7 +13,7 @@ export const NavbarB = () => {
   return (
     <>
       <Navbar expand="lg" fixed="top" variant="dark" className="mb-3">
-        <Container>
+        <Container xxl={12}>
           <Navbar.Brand href="#">
             <img src={Logo} alt="" className="logoImg" loading="lazy" />
           </Navbar.Brand>
@@ -28,6 +28,30 @@ export const NavbarB = () => {
               </Nav.Link>
               <Nav.Link active href="#">
                 Nosotros
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Empresa
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Busco Talento
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Profesionales
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Busco Empleo
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Blog
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Contacto
+              </Nav.Link>
+              <Nav.Link active href="#">
+                Es
+              </Nav.Link>
+              <Nav.Link active href="#">
+                En
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
