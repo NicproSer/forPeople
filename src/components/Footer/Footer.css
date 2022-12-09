@@ -1,0 +1,10 @@
+.footer {
+  padding: 20px 0;
+  background-color: var(--black);
+}
+
+.footer .footerLink {
+  text-decoration: none;
+  color: var(--turquesa);
+  font-size: 14px;
+}

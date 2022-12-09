@@ -26,7 +26,7 @@ export default function ScrollButton() {
     <Button
       variant="primary"
       id="button-top"
-      style={{ display: visible ? "inline" : "none" }}
+      style={{ display: visible ? "flex" : "none" }}
     >
       <i className="bx bx-chevron-up" onClick={scrollToTop}></i>
     </Button>

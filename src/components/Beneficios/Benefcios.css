@@ -4,4 +4,34 @@
 
 .beneficios h4 {
   font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.beneficios .icon,
+.beneficios .icon::before {
+  display: inline-block;
+}
+
+.beneficios .icon {
+  width: 2.4em;
+  height: 2.4em;
+  border: 1px solid var(--turquesa);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--turquesa);
+  line-height: 2.33em;
+}
+
+.beneficios .icon::before {
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+
+.beneficios .titleBeneficios {
+  font-size: 25px;
+}
+.beneficios .text-bold {
+  font-weight: 700;
+  font-style: italic;
 }

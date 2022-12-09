@@ -1,0 +1,26 @@
+.areas .section-turquesa {
+  background-color: var(--turquesa);
+}
+
+.areas .wrapArea {
+  padding: 150px 0 150px;
+}
+
+.areas .text {
+  margin: auto;
+  max-width: 715px;
+}
+
+.areas h3 {
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+.imgEmpresas {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../../assets/bg-image-3.9ac19820.jpg);
+}
+
+.imgProfesionales {
+  background: url(../../assets/bg-image-5.3cceadf3.webp);
+}

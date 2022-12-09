@@ -22,6 +22,10 @@ body {
   max-width: 1500px !important;
 }
 
+.row {
+  margin-right: 0 !important;
+}
+
 /*Scroll Bar */
 
 body::-webkit-scrollbar {

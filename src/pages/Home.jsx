@@ -10,6 +10,7 @@ import { Areas } from "../components/Areas/Areas";
 import { Contacto } from "../components/Contacto/Contacto";
 import ScrollButton from "../components/ScrollButton/ScrollButton";
 import { Footer } from "../components/Footer/Footer";
+import { Conecta } from "../components/Conecta/Conecta";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Areas />
       <Contacto />
       <ScrollButton />
+      <Conecta />
       <Footer />
     </>
   );
