@@ -1,0 +1,11 @@
+.colaboradores {
+  padding: 40px 0;
+  background-color: var(--turquesa);
+  color: var(--white);
+}
+
+.colaboradores h5 {
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}

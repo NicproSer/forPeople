@@ -6,6 +6,22 @@
   --white: #fff;
 }
 
+@font-face {
+  font-family: caviar-dreams, "sans-serif";
+  font-weight: 600;
+  font-style: italic;
+  src: url(../public//caviar_dreams/CaviarDreams.ttf) format("truetype");
+}
+
+body {
+  font-family: caviar-dream, "sans-serif" !important;
+  font-size: 18px !important;
+}
+
+.container {
+  max-width: 1500px !important;
+}
+
 /*Scroll Bar */
 
 body::-webkit-scrollbar {
