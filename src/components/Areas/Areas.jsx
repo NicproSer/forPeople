@@ -1,6 +1,7 @@
 import React from "react";
 import "./Areas.css";
 import { Col, Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 
 export const Areas = () => {
   return (
@@ -20,6 +21,7 @@ export const Areas = () => {
               eficiente, te invitamos a conocer las ventajas de conectar con
               nosotros
             </p>
+            <Button variant="outline-secondary">Acceder</Button>
           </div>
         </Col>
         <Col md="6" className="imgEmpresas wrapArea"></Col>
@@ -39,6 +41,7 @@ export const Areas = () => {
               Te conectamos con los proyecto más interesante y con las
               tecnologías del momento
             </p>
+            <Button variant="outline-secondary">Acceder</Button>
           </div>
         </Col>
       </Row>
