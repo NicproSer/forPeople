@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contacto.css";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 export const Contacto = () => {
   return (
@@ -65,6 +65,18 @@ export const Contacto = () => {
                 <div className="input">
                   <input type="text" placeholder="Mensaje" />
                 </div>
+                <div className="politica" style={{ display: "block" }}>
+                  <input type="checkbox" id="form-check" style={{}} />
+                  <label htmlFor="form-check">
+                    Acepto facilitar mis datos para que puedan gestionar mi
+                    solicitud de información. Ver{" "}
+                    <a href="/" className="link-form">
+                      Política de Privacidad
+                    </a>
+                  </label>
+                </div>
+                <br />
+                <Button variant="primary">CONECTEMOS</Button>
               </form>
             </div>
           </Col>
