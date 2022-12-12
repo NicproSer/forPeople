@@ -1,0 +1,62 @@
+.contacto {
+  padding: 100px 0;
+}
+
+.contacto .col-md-12 {
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+
+.box-icon-header {
+  margin-bottom: 12px;
+}
+
+.contacto .box-icon-title {
+  font-size: 24px;
+  position: relative;
+  transform: translateY(5px);
+  will-change: transform;
+  transition: all 0.3s ease;
+}
+
+.contacto .box-icon-title::after {
+  position: absolute;
+  content: "";
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 1px solid black;
+  transform: inherit;
+}
+
+.contacto .box-icon-title:hover {
+  transform: none;
+}
+
+.contacto a {
+  text-decoration: none;
+  color: var(--turquesa-oscuro);
+  font-weight: 500;
+}
+
+.contacto .col-md-7 {
+  text-align: right;
+}
+
+.contacto .col-md-7 .form {
+  max-width: 530px;
+  padding: 20px;
+  background: #575757;
+  border-radius: 8px;
+}
+
+.contacto .col-md-7 form {
+  position: relative;
+}
+
+.contacto input {
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.5);
+  outline: none;
+}
